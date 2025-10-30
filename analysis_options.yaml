@@ -1,0 +1,12 @@
+
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  exclude:
+    - lib/custom_code/**
+    - lib/flutter_flow/custom_functions.dart
+
+linter:
+  rules:
+    # Desabilitar regras que geram infos sem comprometer o código
+    use_build_context_synchronously: false

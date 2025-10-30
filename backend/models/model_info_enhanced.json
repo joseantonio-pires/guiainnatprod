@@ -1,0 +1,54 @@
+{
+  "version": "2.0_enhanced",
+  "dataset_type": "enhanced_dataset_full",
+  "total_images": 10233,
+  "num_classes": 16,
+  "test_metrics": {
+    "loss": 1.31996750831604,
+    "accuracy": 0.6806102395057678,
+    "top3_accuracy": 0.8597440719604492
+  },
+  "architecture": {
+    "base": "MobileNetV2",
+    "pooling": "Dual (AVG + MAX)",
+    "attention": "Squeeze-and-Excitation",
+    "regularization": "L2 + Dropout + BatchNorm"
+  },
+  "training": {
+    "img_size": 224,
+    "batch_size": 16,
+    "max_epochs": 100,
+    "initial_lr": 0.001,
+    "finetune_lr": 0.0001,
+    "strategy": "Two-Phase (Feature Extraction + Fine-tuning)"
+  },
+  "optimizations": [
+    "Two-phase training strategy",
+    "Squeeze-and-Excitation blocks",
+    "Dual pooling (AVG+MAX)",
+    "Advanced data augmentation (CutMix-style)",
+    "Class weighting for imbalance",
+    "L2 regularization",
+    "Adaptive learning rate reduction",
+    "Early stopping with patience",
+    "Model checkpointing"
+  ],
+  "categories": [
+    "aranhas",
+    "besouro_carabideo",
+    "crisopideo",
+    "joaninhas",
+    "libelulas",
+    "mosca_asilidea",
+    "mosca_dolicopodidea",
+    "mosca_sirfidea",
+    "mosca_taquinidea",
+    "percevejo_geocoris",
+    "percevejo_orius",
+    "percevejo_pentatomideo",
+    "percevejo_reduviideo",
+    "tesourinha",
+    "vespa_parasitoide",
+    "vespa_predadora"
+  ]
+}
