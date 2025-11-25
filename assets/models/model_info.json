@@ -1,0 +1,35 @@
+{
+  "input_shape": [
+    1,
+    224,
+    224,
+    3
+  ],
+  "output_shape": [
+    1,
+    16
+  ],
+  "input_type": "float32",
+  "output_type": "float32",
+  "classes": [
+    "aranhas",
+    "besouro_carabideo",
+    "crisopideo",
+    "joaninhas",
+    "libelulas",
+    "mosca_asilidea",
+    "mosca_dolicopodidea",
+    "mosca_sirfidea",
+    "mosca_taquinidea",
+    "percevejo_geocoris",
+    "percevejo_orius",
+    "percevejo_pentatomideo",
+    "percevejo_reduviideo",
+    "tesourinha",
+    "vespa_parasitoide",
+    "vespa_predadora"
+  ],
+  "test_accuracy": 0.8405448794364929,
+  "preprocessing": "efficientnet_preprocess_input",
+  "dataset_source": "C:\\repos_github\\Embrapa\\Guia-inNatFlu\\enhanced_insect_data\\final_dataset"
+}

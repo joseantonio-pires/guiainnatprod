@@ -1,0 +1,30 @@
+# Dependências para o Sistema de Coleta de Dados do iNaturalist
+# Instalar com: pip install -r requirements_collector.txt
+
+# Requisições HTTP
+requests>=2.28.0
+
+# Processamento de imagens
+Pillow>=9.0.0
+opencv-python>=4.6.0
+
+# Análise de dados
+numpy>=1.21.0
+pandas>=1.4.0
+
+# Visualização
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# Machine Learning (para validação de imagens)
+tensorflow>=2.10.0
+
+# Utilitários
+pathlib2>=2.3.0  # Para compatibilidade com Python < 3.4
+tqdm>=4.64.0     # Barras de progresso (opcional)
+
+# Banco de dados (sqlite3 é built-in do Python)
+
+# Logging e configuração
+pyyaml>=6.0      # Para arquivos de configuração (opcional)
+colorlog>=6.7.0  # Para logs coloridos (opcional)

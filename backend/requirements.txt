@@ -1,0 +1,11 @@
+flask
+Flask-CORS # Nome correto e versão explícita
+tensorflow-cpu # Versão CPU para economizar espaço
+pillow
+numpy
+pandas
+scikit-learn
+gunicorn
+opencv-python
+matplotlib
+albumentations

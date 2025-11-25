@@ -1,0 +1,46 @@
+{
+  "model_info": {
+    "architecture": "EfficientNetB0 + Transfer Learning",
+    "input_shape": [
+      224,
+      224,
+      3
+    ],
+    "num_classes": 16,
+    "classes": [
+      "aranhas",
+      "besouro_carabideo",
+      "crisopideo",
+      "joaninhas",
+      "libelulas",
+      "mosca_asilidea",
+      "mosca_dolicopodidea",
+      "mosca_sirfidea",
+      "mosca_taquinidea",
+      "percevejo_geocoris",
+      "percevejo_orius",
+      "percevejo_pentatomideo",
+      "percevejo_reduviideo",
+      "tesourinha",
+      "vespa_parasitoide",
+      "vespa_predadora"
+    ]
+  },
+  "performance": {
+    "accuracy": 0.25625,
+    "top3_accuracy": 0.46875,
+    "accuracy_percentage": 25.624999999999996,
+    "top3_accuracy_percentage": 46.875
+  },
+  "dataset_info": {
+    "total_test_images": 480,
+    "images_per_class": 30
+  },
+  "training_analysis": {
+    "final_train_accuracy": 1.0,
+    "final_val_accuracy": 1.0,
+    "final_train_loss": 0.209882983429996,
+    "final_val_loss": 0.36294725360391555,
+    "overfitting_risk": "moderate"
+  }
+}
